@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>age calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container" id="dark">
+      <div class="calc">
+        <h1>Age calculator</h1>
+        <div class="input-c">
+          <input type="date" id="date" placeholder="Enter birth date" />
+          <button onclick="calculateAge()" ondblclick="darkMood() ">
+            view your age
+          </button>
+        </div>
+        <p id="age"></p>
+        <button onclick="darkMood() ">🤖</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
